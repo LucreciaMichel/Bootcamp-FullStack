@@ -41,3 +41,20 @@ form {
     padding: 20px;     
 }
 
+.control:has(:focus:invalid) {
+    color: red;
+}
+
+.control:has(:focus:valid){
+    color:green;
+}
+
+.control:has(:focus-visible:invalid) input {
+    outline-color: red;
+}
+
+.control:has(:focus-visible:valid) input {
+    outline-color:green;
+}
+
+
