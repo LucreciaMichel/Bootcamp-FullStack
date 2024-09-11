@@ -33,12 +33,17 @@ input[type="submit"] {
     border-color: black;
 }
 
+.button-enviar {
+    background-color: darkslateblue;
+    border-color: darkslateblue;
+}
+
 form {    
     background-color:#ffffff;
     border-width: 1px;
     border-radius: 5px;
     width: 300px;
-    padding: 20px;     
+    padding: 20px; 
 }
 
 .control:has(:focus:invalid) {
